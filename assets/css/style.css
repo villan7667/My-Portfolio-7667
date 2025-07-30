@@ -1298,7 +1298,7 @@ textarea.input-field {
   }
 
   .container {
-    max-width: 980px;
+    max-width: 1200px;
   }
 
   .section-content {
@@ -1344,7 +1344,7 @@ textarea.input-field {
 
   .navbar-link {
     transform: translateY(0);
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding-inline: 10px;
   }
 
