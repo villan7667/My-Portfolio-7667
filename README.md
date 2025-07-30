@@ -7,7 +7,7 @@ This website highlights **who I am**, my **technical skills**, and the **real-wo
   <img src="https://github.com/user-attachments/assets/75020be0-2f54-4127-9789-5190fbe6dfdc" width="100%" alt="Portfolio Preview Banner">
 </p>
 <p align="center">
-  <a href="https://explore-jharkhand.onrender.com">
+  <a href="https://villan7667portfolio.netlify.app/">
     <img src="https://img.shields.io/badge/🌐%20Live%20Portfolio-Click%20to%20View-00BFFF?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
 </p>
