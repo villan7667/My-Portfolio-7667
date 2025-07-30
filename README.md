@@ -151,14 +151,14 @@ This website highlights **who I am**, my **technical skills**, and the **real-wo
 ## 🖼️ UI Preview
 
 <p align="center">
-  <img src="./assets/images/project-6.png" width="280" height="160" alt="Explore Jharkhand" />
-  <img src="./assets/images/project-5.png" width="280" height="160" alt="AI Notebook" />
-  <img src="./assets/images/project-3.png" width="280" height="160" alt="Secrets App" />
+  <img src="./assets/images/project-6.png" width="250" height="160" alt="Explore Jharkhand" />
+  <img src="./assets/images/project-5.png" width="250" height="160" alt="AI Notebook" />
+  <img src="./assets/images/project-3.png" width="250" height="160" alt="Secrets App" />
 </p>
 <p align="center">
-  <img src="./assets/images/project-2.png" width="280" height="160" alt="Omni Food" />
-  <img src="./assets/images/project-1.png" width="280" height="160" alt="Weather App" />
-  <img src="./assets/images/project-7.png" width="280" height="160" alt="Task Master" />
+  <img src="./assets/images/project-2.png" width="250" height="160" alt="Omni Food" />
+  <img src="./assets/images/project-1.png" width="250" height="160" alt="Weather App" />
+  <img src="./assets/images/project-7.png" width="250" height="160" alt="Task Master" />
 </p>
 
 ---
