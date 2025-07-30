@@ -207,11 +207,11 @@ document.addEventListener("DOMContentLoaded", function () {
       e.preventDefault();
 
       const params = {
-        hireName: hireMeForm.hireName.value,
-        hireEmail: hireMeForm.hireEmail.value,
-        hireMessage: hireMeForm.hireMessage.value,
-      };
-
+        name: hireMeForm.hireName.value,
+        email: hireMeForm.hireEmail.value,
+        message: hireMeForm.hireMessage.value,
+      };      
+      
       emailjs.send(SERVICE_ID, HIRE_TEMPLATE_ID, params)
         .then(() => {
           showCustomAlert("Thank you! I’ll connect with you soon.");
