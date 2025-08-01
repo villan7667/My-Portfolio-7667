@@ -1,6 +1,6 @@
-/*-----------------------------------*\
-* #CUSTOM PROPERTY & VARIABLES
-\*-----------------------------------*/
+/*------------------*\
+* # it me villan7667
+\*------------------*/
 
 :root {
   /**
@@ -626,20 +626,23 @@ main {
 
 .hero-content {
   max-width: 450px;
+  margin-top: 180px; 
 }
 
 .hero-title {
   text-align: center;
   margin-bottom: 50px;
+  margin-top: 170px; 
 }
 
 .hero .btn-primary {
   margin-inline: auto;
+  margin-top: 65px;
 }
 
-/*-----------------------------------*\
-* #STATS
-\*-----------------------------------*/
+/*--------------------------*\
+* #STATS only me 7667 Villan
+\*--------------------------*/
 
 .stats {
   padding-block: var(--section-padding);
@@ -697,9 +700,9 @@ main {
   color: var(--color-secondary);
 }
 
-/*-----------------------------------*\
-* #MODAL (HIRE ME)
-\*-----------------------------------*/
+/*------------------*\
+* #MODAL Hire
+\*--------------------*/
 
 .modal {
   position: fixed;
