@@ -626,7 +626,7 @@ main {
 
 .hero-content {
   max-width: 450px;
-  margin-top: 80px; 
+  margin-top: 100px; 
 }
 
 .hero-title {
@@ -637,7 +637,7 @@ main {
 
 .hero .btn-primary {
   margin-inline: auto;
-  margin-top: 65px;
+  margin-top: 15px;
 }
 
 /*--------------------------*\
