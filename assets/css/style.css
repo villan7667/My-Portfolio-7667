@@ -60,8 +60,7 @@ canvas {
   z-index: -1;
   pointer-events: none;
 }
-
-/* Ultra-smooth 240Hz scroll behavior */
+/* Smooth scrolling  */
 html {
   font-family: var(--ff-roboto);
   scroll-behavior: smooth;
@@ -77,7 +76,7 @@ html {
     scroll-behavior: smooth !important;
   }
 
-  /* Enhanced smoothness for high refresh rate displays */
+
   @supports (scroll-behavior: smooth) {
     html {
       scroll-behavior: smooth;
@@ -89,8 +88,6 @@ html {
     }
   }
 }
-
-/* Smooth scrolling enhancement */
 .smooth-scroll {
   transition: all var(--scroll-smooth-duration) var(--scroll-smooth-timing);
 }
@@ -615,8 +612,8 @@ main {
 }
 
 .hero-banner {
-  max-width: 100%; /* Adjusted for responsiveness */
-  width: 100%; /* Adjusted for responsiveness */
+  max-width: 100%;
+  width: 100%; 
   margin-bottom: 30px;
 }
 
@@ -626,18 +623,15 @@ main {
 
 .hero-content {
   max-width: 450px;
-  margin-top: 150px; 
 }
 
 .hero-title {
   text-align: center;
-  margin-bottom: 20px;
-  margin-top: 80px; 
+  margin-bottom: 50px;
 }
 
 .hero .btn-primary {
   margin-inline: auto;
-  margin-top: 10px;
 }
 
 /*--------------------------*\
@@ -806,7 +800,7 @@ main {
 .about-banner {
   perspective: 1000px;
   margin-inline: auto;
-  margin-bottom: 60px; /* Adjusted margin for mobile */
+  margin-bottom: 60px; 
   transform-style: preserve-3d;
   transition: transform 0.3s ease-out;
 }
@@ -1236,12 +1230,12 @@ textarea.input-field {
  */
 @media (min-width: 550px) {
   .container {
-    max-width: 540px; /* Adjusted for common tablet width */
+    max-width: 540px; 
     margin-inline: auto;
   }
   .hero-banner {
-    transform: translateX(0); /* Removed problematic transform */
-    max-width: 100%; /* Ensure it doesn't exceed container */
+    transform: translateX(0); 
+    max-width: 100%; 
   }
 
   .section-title {
@@ -1263,7 +1257,7 @@ textarea.input-field {
  */
 @media (min-width: 768px) {
   .container {
-    max-width: 720px; /* Adjusted for common tablet width */
+    max-width: 720px;
   }
 
   .section-title {
@@ -1278,13 +1272,13 @@ textarea.input-field {
   }
 
   .h1 {
-    font-size: 2.5rem; /* Increased font size for better readability */
+    font-size: 2.5rem; 
     line-height: 1.1;
     font-weight: 400;
   }
 
   .h2 {
-    font-size: 2.8rem; /* Adjusted for better hierarchy */
+    font-size: 2.8rem; 
   }
 
   .stats-list {
@@ -1307,7 +1301,7 @@ textarea.input-field {
   }
 
   .container {
-    max-width: 960px; /* Adjusted for common desktop width */
+    max-width: 960px; 
   }
 
   .section-content {
@@ -1379,6 +1373,22 @@ textarea.input-field {
     padding-top: 0;
     height: 100vh;
   }
+    .hero-content {
+    max-width: 450px;
+    margin-top: 150px; 
+  }
+  
+  .hero-title {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 80px; 
+  }
+  
+  .hero .btn-primary {
+    margin-inline: auto;
+    margin-top: 10px;
+  }
+
 
   .hero-3d-container {
     perspective: 1000px;
@@ -1422,10 +1432,10 @@ textarea.input-field {
     --color-primary: var(--white);
     position: absolute;
     top: 50%;
-    left: 50%; /* Added for horizontal centering */
-    transform: translate(-50%, -50%); /* Added for vertical and horizontal centering */
+    left: 50%; 
+    transform: translate(-50%, -50%);
     filter: drop-shadow(2px 4px 10px var(--black));
-    text-align: center; /* Ensure text remains centered */
+    text-align: center; 
   }
 
   .hero .btn-primary:is(:hover, :focus) {
@@ -1575,9 +1585,9 @@ textarea.input-field {
  * responsive for larger than 1200px screen
  */
 @media (min-width: 1200px) {
-  /* Changed from 2000px to 1200px for more standard large desktop breakpoint */
+
   .container {
-    max-width: 1140px; /* Adjusted for common desktop width */
+    max-width: 1140px; 
   }
 
   .section-title {
