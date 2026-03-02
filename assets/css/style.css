@@ -60,6 +60,7 @@ canvas {
   z-index: -1;
   pointer-events: none;
 }
+
 /* Smooth scrolling  */
 html {
   font-family: var(--ff-roboto);
